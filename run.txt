@@ -1,0 +1,35 @@
+=====================================================================
+HOW TO RUN BACKEND & FRONTEND (CMD)
+=====================================================================
+
+Both the Backend (Python / LangGraph / Ollama, Groq or Gemini AI) and
+Frontend (HTML / CSS / JS Dashboard) run together in ONE command!
+
+---------------------------------------------------------------------
+STEP 1: Open Command Prompt (CMD)
+---------------------------------------------------------------------
+Press Win + R, type "cmd", and press Enter.
+
+---------------------------------------------------------------------
+STEP 2: Navigate to the Project Folder
+---------------------------------------------------------------------
+cd /d "c:\Users\krvam\OneDrive\Desktop\email-automation-langgraph"
+
+---------------------------------------------------------------------
+STEP 3: Start Backend & Frontend
+---------------------------------------------------------------------
+venv\Scripts\activate
+python run.py web
+
+---------------------------------------------------------------------
+STEP 4: Open in Your Browser
+---------------------------------------------------------------------
+Open your browser and go to:
+http://127.0.0.1:8000
+
+(To stop the server at any time: Press Ctrl + C in the CMD window)
+
+=====================================================================
+QUICKEST ONE-LINER (NO ACTIVATION NEEDED):
+=====================================================================
+cd /d "c:\Users\krvam\OneDrive\Desktop\email-automation-langgraph" && .\venv\Scripts\python.exe run.py web

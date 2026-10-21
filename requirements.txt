@@ -1,0 +1,30 @@
+# Core LangChain & LangGraph
+langgraph>=0.2.20
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-chroma>=0.1.4
+chromadb>=0.5.0
+pydantic>=2.7.0
+
+# Local Embeddings & Knowledge Ingestion
+sentence-transformers>=3.0.0
+pypdf>=4.2.0
+python-docx>=1.1.0
+
+# Gmail API & OAuth
+google-api-python-client>=2.130.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+beautifulsoup4>=4.12.0
+
+# Web application
+aiohttp>=3.9.0
+cryptography>=42.0.0
+
+# HTTP & Environment
+requests>=2.31.0
+python-dotenv>=1.0.1
+colorama>=0.4.6
+
+# Testing
+pytest>=8.0.0

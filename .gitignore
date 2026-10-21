@@ -1,0 +1,37 @@
+# Secrets and credentials
+.env
+.env.local
+credentials.json
+token.json
+
+# Application data (database, knowledge index, uploaded documents, key file)
+data/
+
+# Python
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archives
+*.zip
+*.tar.gz
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Real correspondence used as the local knowledge base (not published)
+Mail/
